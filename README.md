@@ -1,221 +1,232 @@
 <p align="center">
-  <img src="assets/dev-qa-sync-playbook-banner.png" width="100%">
+  <img src="assets/dev-qa-sync-playbook-banner.png" width="100%" alt="Dev-QA Sync Playbook Banner"/>
 </p>
 
-# Dev-QA Sync Playbook
+<h1 align="center">Dev-QA Sync Playbook</h1>
 
-Community project exploring **collaboration between Developers and QA Engineers**.
+<p align="center">
+  Professional QA portfolio project focused on <b>Dev-QA collaboration</b>, <b>test case management</b>, <b>bug reporting</b>, and <b>quality engineering documentation</b>.
+</p>
 
-This repository proposes a **structured approach to Dev–QA collaboration**, helping QA professionals support **multiple development teams without becoming a bottleneck**.
-
----
-
-![QA](https://img.shields.io/badge/QA-Engineering-blue)
-![Testing](https://img.shields.io/badge/Software-Testing-green)
-![Automation](https://img.shields.io/badge/Test-Automation-orange)
-![Workflow](https://img.shields.io/badge/Dev-QA%20Workflow-purple)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
----
-
-# Quick Navigation
-
-Problem  
-docs/problem.md
-
-Research  
-docs/research.md
-
-Insights  
-docs/insights.md
-
-Playbook  
-docs/playbook.md
-
-Metrics  
-docs/metrics.md
-
-Bug Report Template  
-templates/bug-report-template.md
-
-Test Strategy Template  
-templates/test-strategy-template.md
-
-QA Handoff Checklist  
-templates/qa-handoff-checklist.md
+<p align="center">
+  <img src="https://img.shields.io/badge/QA-Engineering-blue" alt="QA Engineering" />
+  <img src="https://img.shields.io/badge/Test%20Management-GitHub-success" alt="Test Management" />
+  <img src="https://img.shields.io/badge/Bug%20Reporting-Structured-red" alt="Bug Reporting" />
+  <img src="https://img.shields.io/badge/Test%20Cases-Documented-brightgreen" alt="Test Cases" />
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status Active" />
+</p>
 
 ---
 
-# Why this project exists
+## Quick Access
 
-In many companies **a single QA supports multiple development teams**.
-
-Without a clear process this often leads to:
-
-• QA bottlenecks  
-• unclear bug reports  
-• delayed feedback cycles  
-• inconsistent testing strategies  
-• developers relying entirely on QA validation  
-
-This project proposes a **collaboration model** where **quality becomes a shared responsibility between Dev and QA**.
+<p align="center">
+  <a href="#about-the-project">About</a> •
+  <a href="#project-navigation">Navigation</a> •
+  <a href="#featured-test-cases">Featured Test Cases</a> •
+  <a href="#qa-documentation">QA Documentation</a> •
+  <a href="#bug-management">Bug Management</a> •
+  <a href="#workflow">Workflow</a> •
+  <a href="#author">Author</a>
+</p>
 
 ---
 
-# Dev–QA Collaboration Workflow
+## About the Project
 
-Typical workflow proposed by this playbook:
+This repository was created as a **QA Engineering portfolio project** to demonstrate how a QA professional can organize and document a complete quality workflow using GitHub.
 
-Developer creates feature  
-↓  
-Pull Request created  
-↓  
-Acceptance criteria reviewed  
-↓  
-QA validation  
-↓  
-Bug feedback  
-↓  
-Fix implementation  
-↓  
-Regression validation  
-↓  
-Release
+The project simulates a real QA environment, including:
 
-This approach encourages **early QA involvement** and **structured communication between teams**.
+- Dev-QA collaboration workflow
+- bug reporting standards
+- test case management
+- QA strategy and planning
+- validation checklist
+- testing pyramid documentation
+
+Its purpose is to show both **practical QA execution** and **strategic quality thinking**.
 
 ---
 
-# Key Concepts Covered
+## Project Navigation
 
-Dev-QA Collaboration
+### Main QA Workflow
+- [Define Dev-QA collaboration workflow](../../issues/1)
+- [Create QA bug reporting standard](../../issues/2)
+- [Report bug using QA bug report template](../../issues/3)
 
-Risk-Based Testing
+### Authentication Test Cases
+- [Test Case: Login with valid credentials](../../issues/5)
+- [Test Case: Login with invalid password](../../issues/6)
+- [Test Case: Login with empty fields](../../issues/7)
+- [Test Case: Password recovery flow](../../issues/8)
+- [Test Case: User logout functionality](../../issues/9)
+- [Test Case: Session timeout after inactivity](../../issues/11)
 
-Quality Ownership
-
-Structured Bug Reporting
-
-QA Support for Multiple Squads
-
-Agile Workflow Integration
-
----
-
-# Repository Navigation
-
-<details open>
-<summary><b>docs</b></summary>
-
-Documentation and research about Dev-QA collaboration.
-
-problem.md → description of the core problem  
-research.md → research and context  
-insights.md → insights collected from the study  
-playbook.md → structured collaboration model  
-metrics.md → quality metrics
-
-</details>
+### QA Documentation
+- [Test Strategy for QA Testing Process](../../issues/12)
+- [QA Test Plan for Authentication Features](../../issues/13)
+- [Test Pyramid Strategy for Automation](../../issues/14)
+- [QA Checklist for Feature Validation](../../issues/15)
 
 ---
 
-<details>
-<summary><b>templates</b></summary>
+## What This Project Demonstrates
 
-Reusable QA workflow templates.
+This repository demonstrates knowledge in:
 
-bug-report-template.md  
-qa-handoff-checklist.md  
-test-strategy-template.md
-
-</details>
-
----
-
-<details>
-<summary><b>assets</b></summary>
-
-Visual assets used in documentation.
-
-dev-qa-sync-playbook-banner.png
-
-</details>
+- software quality assurance
+- manual test design
+- bug reporting best practices
+- QA workflow organization
+- test planning and strategy
+- authentication feature validation
+- test documentation using GitHub Issues
+- quality process documentation using GitHub Projects
 
 ---
 
-# QA Collaboration Model
+## Featured Test Cases
 
-This repository proposes a model where QA focuses on **risk analysis, testing strategy and validation**, while developers maintain **ownership of code quality**.
+This project includes a structured set of authentication-related test scenarios designed to simulate a professional QA workflow.
 
-Developer responsibilities:
+### Positive Scenarios
+- [Login with valid credentials](../../issues/5)
+- [Password recovery flow](../../issues/8)
+- [User logout functionality](../../issues/9)
 
-• follow acceptance criteria  
-• validate features locally  
-• provide clear context in pull requests  
+### Negative and Validation Scenarios
+- [Login with invalid password](../../issues/6)
+- [Login with empty fields](../../issues/7)
+- [Session timeout after inactivity](../../issues/11)
 
-QA responsibilities:
+These cases demonstrate coverage of:
 
-• risk analysis  
-• exploratory testing  
-• validation of critical flows  
-• structured feedback  
-
-This model improves **delivery speed and quality consistency**.
-
----
-
-# Example Bug Report Structure
-
-This project includes a standard bug reporting template.
-
-Fields included:
-
-Summary  
-Environment  
-Steps to Reproduce  
-Expected Result  
-Actual Result  
-Evidence  
-Severity
-
-A structured bug report improves **communication efficiency between Dev and QA teams**.
+- successful user authentication
+- invalid credential handling
+- required field validation
+- account recovery flow
+- session security behavior
+- logout validation
 
 ---
 
-# Quality Metrics
+## QA Documentation
 
-Examples of metrics that can be tracked:
+This repository also includes documentation typically found in professional QA environments.
 
-• bug resolution time  
-• escaped defects  
-• testing cycle duration  
-• re-opened bugs  
-• test coverage evolution
+### Included Documents
+- [Test Strategy for QA Testing Process](../../issues/12)
+- [QA Test Plan for Authentication Features](../../issues/13)
+- [Test Pyramid Strategy for Automation](../../issues/14)
+- [QA Checklist for Feature Validation](../../issues/15)
 
-These metrics help teams **improve quality processes over time**.
+### Documentation Purpose
+
+**Test Strategy**  
+Defines the overall approach to quality assurance, including scope, testing levels, testing types, and tools.
+
+**Test Plan**  
+Defines what will be tested, the environment, objectives, and testing focus for authentication features.
+
+**Test Pyramid**  
+Represents a balanced approach to automation, covering unit, integration, and end-to-end testing layers.
+
+**QA Checklist**  
+Lists the main quality validation points before a feature is considered ready.
+
+These artifacts show a **structured QA mindset**, not only isolated test execution.
 
 ---
 
-# Contributing
+## Bug Management
 
-Developers and QA engineers are welcome to contribute.
+The repository includes bug management artifacts to show how QA communicates defects clearly with development teams.
 
-Ways to contribute:
+### Included Bug Artifacts
+- [Create QA bug reporting standard](../../issues/2)
+- [Report bug using QA bug report template](../../issues/3)
 
-• sharing Dev-QA collaboration experiences  
-• suggesting improvements  
-• proposing workflow optimizations  
-• submitting new templates
+### Bug Report Structure
+
+The bug reporting workflow in this project includes:
+
+- environment
+- steps to reproduce
+- expected result
+- actual result
+- additional information
+
+This reflects the kind of communication expected in real QA processes.
 
 ---
 
-# Author
+## Workflow
 
-Ivaneide Monteiro
+The project follows a Dev-QA collaboration model where work can be tracked from backlog to validation.
 
-QA Analyst  
-Test Automation  
-Quality Engineering
+### Simplified Flow
 
-GitHub  
+## QA Workflow
+
+The project follows a simplified **Dev–QA collaboration workflow**, where tasks move through different stages until release.
+
+```text
+Backlog
+↓
+Ready for Dev
+↓
+In Progress
+↓
+Ready for QA
+↓
+In QA
+↓
+Ready to Release
+↓
+Done
+```
+## Repository Structure
+
+Main project content is organized through the following components:
+
+- **Issues** – used to document the QA workflow, bug reports, and test cases.
+- **Projects** – used to simulate a QA workflow board and task progression.
+- **Labels** – used to categorize work items such as bugs, tests, and documentation.
+- **Documentation** – includes testing strategy, test plan, test pyramid, and QA validation checklist.
+
+This structure demonstrates how GitHub can be used as a **lightweight QA management environment**.
+
+---
+
+## Why This Project Matters
+
+This repository was designed to demonstrate how a QA professional contributes beyond simply executing tests.
+
+It highlights the ability to:
+
+- think about quality strategically  
+- organize validation workflows  
+- document tests and defects clearly  
+- structure a complete testing process  
+- communicate effectively with development teams  
+- manage quality work using GitHub tools
+
+This type of project helps demonstrate readiness for roles such as:
+
+- **QA Analyst**
+- **Software Tester**
+- **QA Engineer**
+- **Test Automation Engineer**
+
+---
+
+## Author
+
+**Ivaneide Monteiro**
+
+QA Analyst • Test Automation • Quality Engineering  
+
+🔗 GitHub Profile:  
 https://github.com/ivaneidepmn
