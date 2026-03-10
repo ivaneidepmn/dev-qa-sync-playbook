@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/dev-qa-sync-playbook-banner.png" width="100%">
 </p>
+
 # Dev-QA Sync Playbook
 
 Community project exploring **collaboration between Developers and QA Engineers**.
