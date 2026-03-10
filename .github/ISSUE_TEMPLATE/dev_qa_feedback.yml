@@ -1,0 +1,17 @@
+name: Dev-QA Feedback
+description: Share insights about Dev-QA collaboration
+title: "[FEEDBACK] "
+labels: ["type:feedback"]
+body:
+
+- type: textarea
+  id: experience
+  attributes:
+    label: Your experience
+    description: Describe a Dev-QA collaboration challenge
+
+- type: textarea
+  id: improvement
+  attributes:
+    label: Suggested improvement
+    description: What could improve this process?

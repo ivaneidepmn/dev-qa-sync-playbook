@@ -1,0 +1,49 @@
+name: Bug Report
+description: Report a bug found during testing
+title: "[BUG] "
+labels: ["type:bug"]
+body:
+
+- type: textarea
+  id: summary
+  attributes:
+    label: Bug Summary
+    description: Short description of the issue
+  validations:
+    required: true
+
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to Reproduce
+    description: List steps to reproduce the issue
+  validations:
+    required: true
+
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected Result
+    description: What should happen?
+
+- type: textarea
+  id: actual
+  attributes:
+    label: Actual Result
+    description: What actually happened?
+
+- type: textarea
+  id: environment
+  attributes:
+    label: Environment
+    description: Browser, OS, environment (dev/staging/prod)
+
+- type: dropdown
+  id: severity
+  attributes:
+    label: Severity
+    options:
+      - Low
+      - Medium
+      - High
+      - Critical

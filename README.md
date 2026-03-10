@@ -6,73 +6,216 @@
 
 Community project exploring **collaboration between Developers and QA Engineers**.
 
-This repository investigates common friction points between development and quality assurance teams and proposes practical strategies to improve collaboration, feedback flow and testing efficiency.
+This repository proposes a **structured approach to Dev–QA collaboration**, helping QA professionals support **multiple development teams without becoming a bottleneck**.
 
 ---
 
-## Objective
-
-Help QA professionals support **multiple development teams** without becoming a bottleneck.
-
-The project collects real feedback from developers and QA professionals and transforms it into a **practical collaboration playbook**.
-
----
-
-## Key Topics
-
-• Dev and QA collaboration  
-• Bug reporting best practices  
-• QA supporting multiple squads  
-• Risk-based testing strategy  
-• Agile workflow between Dev and QA  
-• Quality ownership in engineering teams  
+![QA](https://img.shields.io/badge/QA-Engineering-blue)
+![Testing](https://img.shields.io/badge/Software-Testing-green)
+![Automation](https://img.shields.io/badge/Test-Automation-orange)
+![Workflow](https://img.shields.io/badge/Dev-QA%20Workflow-purple)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-## Repository Structure
+# Quick Navigation
 
+Problem  
+docs/problem.md
 
-docs/ → research and playbook
-templates/ → QA workflow templates
-assets/ → diagrams and visuals
+Research  
+docs/research.md
 
+Insights  
+docs/insights.md
 
----
+Playbook  
+docs/playbook.md
 
-## Playbook
+Metrics  
+docs/metrics.md
 
-The collaboration playbook includes:
+Bug Report Template  
+templates/bug-report-template.md
 
-- Definition of Ready for QA
-- Definition of Done with quality criteria
-- Risk-based testing strategy
-- QA handoff guidelines
-- Bug reporting standards
+Test Strategy Template  
+templates/test-strategy-template.md
 
----
-
-## Why this project exists
-
-In many companies a **single QA supports multiple development teams**.
-
-Without structure this leads to:
-
-- QA bottlenecks
-- unclear bug reports
-- late feedback
-- inefficient testing cycles
-
-This project proposes a **structured workflow to improve Dev–QA collaboration**.
+QA Handoff Checklist  
+templates/qa-handoff-checklist.md
 
 ---
 
-## Contributing
+# Why this project exists
 
-Developers and QA engineers are welcome to share their experiences and suggestions.
+In many companies **a single QA supports multiple development teams**.
+
+Without a clear process this often leads to:
+
+• QA bottlenecks  
+• unclear bug reports  
+• delayed feedback cycles  
+• inconsistent testing strategies  
+• developers relying entirely on QA validation  
+
+This project proposes a **collaboration model** where **quality becomes a shared responsibility between Dev and QA**.
 
 ---
 
-## Author
+# Dev–QA Collaboration Workflow
 
-Ivaneide Monteiro  
-QA Analyst | Test Automation | Quality Engineering
+Typical workflow proposed by this playbook:
+
+Developer creates feature  
+↓  
+Pull Request created  
+↓  
+Acceptance criteria reviewed  
+↓  
+QA validation  
+↓  
+Bug feedback  
+↓  
+Fix implementation  
+↓  
+Regression validation  
+↓  
+Release
+
+This approach encourages **early QA involvement** and **structured communication between teams**.
+
+---
+
+# Key Concepts Covered
+
+Dev-QA Collaboration
+
+Risk-Based Testing
+
+Quality Ownership
+
+Structured Bug Reporting
+
+QA Support for Multiple Squads
+
+Agile Workflow Integration
+
+---
+
+# Repository Navigation
+
+<details open>
+<summary><b>docs</b></summary>
+
+Documentation and research about Dev-QA collaboration.
+
+problem.md → description of the core problem  
+research.md → research and context  
+insights.md → insights collected from the study  
+playbook.md → structured collaboration model  
+metrics.md → quality metrics
+
+</details>
+
+---
+
+<details>
+<summary><b>templates</b></summary>
+
+Reusable QA workflow templates.
+
+bug-report-template.md  
+qa-handoff-checklist.md  
+test-strategy-template.md
+
+</details>
+
+---
+
+<details>
+<summary><b>assets</b></summary>
+
+Visual assets used in documentation.
+
+dev-qa-sync-playbook-banner.png
+
+</details>
+
+---
+
+# QA Collaboration Model
+
+This repository proposes a model where QA focuses on **risk analysis, testing strategy and validation**, while developers maintain **ownership of code quality**.
+
+Developer responsibilities:
+
+• follow acceptance criteria  
+• validate features locally  
+• provide clear context in pull requests  
+
+QA responsibilities:
+
+• risk analysis  
+• exploratory testing  
+• validation of critical flows  
+• structured feedback  
+
+This model improves **delivery speed and quality consistency**.
+
+---
+
+# Example Bug Report Structure
+
+This project includes a standard bug reporting template.
+
+Fields included:
+
+Summary  
+Environment  
+Steps to Reproduce  
+Expected Result  
+Actual Result  
+Evidence  
+Severity
+
+A structured bug report improves **communication efficiency between Dev and QA teams**.
+
+---
+
+# Quality Metrics
+
+Examples of metrics that can be tracked:
+
+• bug resolution time  
+• escaped defects  
+• testing cycle duration  
+• re-opened bugs  
+• test coverage evolution
+
+These metrics help teams **improve quality processes over time**.
+
+---
+
+# Contributing
+
+Developers and QA engineers are welcome to contribute.
+
+Ways to contribute:
+
+• sharing Dev-QA collaboration experiences  
+• suggesting improvements  
+• proposing workflow optimizations  
+• submitting new templates
+
+---
+
+# Author
+
+Ivaneide Monteiro
+
+QA Analyst  
+Test Automation  
+Quality Engineering
+
+GitHub  
+https://github.com/ivaneidepmn
