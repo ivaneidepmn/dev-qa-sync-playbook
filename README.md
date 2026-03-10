@@ -48,7 +48,19 @@ The project simulates a real QA environment, including:
 Its purpose is to show both **practical QA execution** and **strategic quality thinking**.
 
 ---
+## Skills Demonstrated
 
+This project demonstrates practical experience with:
+
+- Test case design and validation
+- Bug reporting and defect documentation
+- QA workflow organization
+- Dev–QA collaboration processes
+- Test strategy and planning
+- Quality engineering documentation
+- Test management using GitHub Issues and Projects
+
+---
 ## Project Navigation
 
 ### Main QA Workflow
