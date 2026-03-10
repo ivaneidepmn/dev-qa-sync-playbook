@@ -245,12 +245,10 @@ This type of project helps demonstrate readiness for roles such as:
 - **Test Automation Engineer**
 
 ---
-
 ## Author
 
-**Ivaneide Monteiro**
-
+Ivaneide Nascimento  
 QA Analyst • Test Automation • Quality Engineering  
 
-🔗 GitHub Profile:  
+🔗 GitHub  
 https://github.com/ivaneidepmn
