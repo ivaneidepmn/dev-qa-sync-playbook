@@ -178,6 +178,18 @@ This reflects the kind of communication expected in real QA processes.
 
 The project follows a Dev-QA collaboration model where work can be tracked from backlog to validation.
 
+### Visual Workflow Representation
+
+```mermaid
+flowchart LR
+A[Backlog] --> B[Ready for Dev]
+B --> C[In Progress]
+C --> D[Ready for QA]
+D --> E[In QA]
+E --> F[Ready to Release]
+F --> G[Done]
+
+```
 ### Simplified Flow
 
 ## QA Workflow
