@@ -178,7 +178,7 @@ This reflects the kind of communication expected in real QA processes.
 
 The project follows a Dev-QA collaboration model where work can be tracked from backlog to validation.
 
-### Visual Workflow Representation
+### QA Workflow Diagram
 
 ```mermaid
 flowchart LR
